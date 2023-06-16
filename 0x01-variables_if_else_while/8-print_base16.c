@@ -13,7 +13,7 @@ for (digit = '0'; digit <= 'f'; digit++)
 {
 if ((digit >= '0' && digit <= '9') || (digit >= 'a' && digit <= 'f'))
 {
- putchar(digit);
+putchar(digit);
 count++;
 }
 
